@@ -86,6 +86,6 @@ function f10(e)
     textarea.style.color = value;
 }
 
-window.addEventListener('load'), () => {
+window.addEventListener('load', () => {
     textarea.value = "";
-}
+});
