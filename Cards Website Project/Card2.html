@@ -53,6 +53,24 @@
             height: 10%;
             background-color: #BBC6EC;
             border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        #leftBox{
+            /* width: fit-content; */
+            height: 100%;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .imgBox img{
+            height: 3.5rem;
+            width: 3.5rem;
         }
 
         #paymentButton{
@@ -91,7 +109,7 @@
             </div>
             
             <div id="amountBox">
-                <div class="leftBox">
+                <div id="leftBox">
 
                     <div class="imgBox">
                         <img 
